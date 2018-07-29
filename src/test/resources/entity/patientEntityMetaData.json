@@ -1,0 +1,26 @@
+{
+	"name": "patient",
+	"required": [
+		"name",
+		"age",
+		"gender"
+	],
+	"attributes": [{
+			"name": "name",
+			"attributeType": "STRING",
+			"attributeValidationType": "REGEX",
+			"attributeValidationData": "^[A-Za-z .]+"
+		}, {
+			"name": "gender",
+			"attributeType": "STRING",
+			"attributeValidationType": "SET",
+			"attributeValidationData": "Male, Female, Other"
+		},
+		{
+			"name": "age",
+			"attributeType": "INT",
+			"attributeValidationType": "RANGE",
+			"attributeValidationData": "0 - 120"
+		}
+	]
+}

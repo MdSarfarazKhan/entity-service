@@ -1,0 +1,14 @@
+{
+	"name":"Pope",
+	"age": 28,
+	"location":"Mumbai",
+	"gender":"Male",
+	
+	"address" : {
+		"house":"221B",
+		"street": "Baker steet",
+		"city":"Mumbai",
+		"country":"UK"
+	}
+	
+}

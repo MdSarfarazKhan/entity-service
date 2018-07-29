@@ -1,0 +1,14 @@
+{
+	"name":"John",
+	"age": 26,
+	"location":"Bangalore",
+	"gender":"Male",
+	
+	"address" : {
+		"house":"221B",
+		"street": "Baker steet",
+		"city":"London",
+		"country":"UK"
+	}
+	
+}

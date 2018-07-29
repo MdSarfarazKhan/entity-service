@@ -1,0 +1,25 @@
+{
+	"name": "cricketer",
+	"required": [
+		"playerName",
+		"majorFormat"
+	],
+	"attributes": [{
+			"name": "playerName",
+			"attributeType": "STRING",
+			"attributeValidationType": "SET",
+			"attributeValidationData": "Sanga, Rahul"
+		}, {
+			"name": "majorFormat",
+			"attributeType": "STRING",
+			"attributeValidationType": "SET",
+			"attributeValidationData": "TEST, ODI, T20"
+		},
+		{
+			"name": "highScore",
+			"attributeType": "INT",
+			"attributeValidationType": "RANGE",
+			"attributeValidationData": "200 - 800"
+		}
+	]
+}
